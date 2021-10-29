@@ -1,4 +1,5 @@
 {
+    "name": "smphp/sm",
     "require": {
         "simps/mqtt": "^1.4"
     }
