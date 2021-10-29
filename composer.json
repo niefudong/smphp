@@ -1,7 +1,11 @@
 {
+
     "name": "smphp/sm",
     "type": "project",
+    "license": "MIT", 
     "require": {
         "simps/mqtt": "^1.4"
     }
+    
+
 }
