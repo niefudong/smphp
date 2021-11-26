@@ -6,5 +6,15 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Simps\\MQTT\\' => array($vendorDir . '/simps/mqtt/src'),
+    'think\\' => array($vendorDir . '/topthink/think-helper/src', $vendorDir . '/topthink/think-orm/src'),
+    'app\\' => array($baseDir . '/app'),
+    'WebGeeker\\Validation\\' => array($vendorDir . '/webgeeker/validation/src/Validation'),
+    'Symfony\\Polyfill\\Php80\\' => array($vendorDir . '/symfony/polyfill-php80'),
+    'Symfony\\Polyfill\\Mbstring\\' => array($vendorDir . '/symfony/polyfill-mbstring'),
+    'Symfony\\Component\\VarDumper\\' => array($vendorDir . '/symfony/var-dumper'),
+    'Psr\\SimpleCache\\' => array($vendorDir . '/psr/simple-cache/src'),
+    'Psr\\Log\\' => array($vendorDir . '/psr/log/Psr/Log'),
+    'Noodlehaus\\' => array($vendorDir . '/hassankhan/config/src'),
+    'Monolog\\' => array($vendorDir . '/monolog/monolog/src/Monolog'),
+    'Desarrolla2\\Cache\\' => array($vendorDir . '/desarrolla2/cache/src'),
 );

@@ -1,11 +1,29 @@
 {
 
-    "name": "smphp/sm",
-    "license": "MIT",
+    "name": "skphp/sk",
+    "license": "Apache-2.0",
     "type": "project", 
+    "autoload": {
+        "files": [
+            "public/defines.php",
+            "app/functions.php"
+        ],
+        "psr-4": {
+            "app\\": "app"
+        },
+        "psr-0": {
+            "": "extend/"
+        }
+        
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^5.3"
+    },
     "require": {
-        "simps/mqtt": "^1.4"
+        "topthink/think-orm": "^2.0",
+        "monolog/monolog": "^2.3",
+        "hassankhan/config": "^2.2",
+        "desarrolla2/cache": "^3.0",
+        "webgeeker/validation": "0.5.2"
     }
-
-
 }
